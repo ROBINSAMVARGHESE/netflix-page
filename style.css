@@ -7,11 +7,13 @@ header{
     background-position: 50%;
     height: 90vh;
 }
+
 /* navbar */
 
 nav img{
     width: 13%;
 }
+
 .red-btn{
     background: rgb(229,9, 20);
     color: #fff;
@@ -21,5 +23,85 @@ nav img{
 }
 .red-btn:hover{
     background: rgb(193,17,25);
-
 }
+
+/*  Hero Section*/
+.hero-title{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.hero-first-p{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.hero-second-p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    
+}
+form{
+    width: 60%; 
+}
+form #floatinginput{
+ color: #fff;
+}
+form .form-control:focus{
+    border-color: #fff;
+    box-shadow: none;
+    border-width: medium;
+}
+form .form-floating>.focus-control:focus~label{
+  color: rgb(255,255,225,0.7);
+}
+form .form-floating>.form-control:focus~label::after{
+    background-color: transparent;
+}
+form .form-floating{
+    width: 50%;
+}
+form #floatinginput{
+    background: transparent;
+}
+form label{
+    color: #fff;
+    margin-left: 10px;
+}
+.get-started-btn{
+    height: 60px;
+    font-size: 1.5rem;
+    padding-right:25px;
+    padding-left: 25px;
+}
+.get-started-btn::after{
+    content:"\276f";
+    margin-left: 5px;
+}
+/* Purple section*/
+
+.purple-setion{
+ transform: translateY(-50%);
+ width: 100%;
+}
+.purple-setion .container-md{
+    background: radial-gradient(51.39% 511.66% at 47.68% -217.91%,
+    #ff9900 0%,#e50914 17.27%,#0e1b4f 79.44%, #000413 100%);
+    box-shadow: 0px -8px 25px rgb(0,0,0,0.5);
+    border-radius: 4px;
+    margin: 074px;
+    color: #fff;
+    padding: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
