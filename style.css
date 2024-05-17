@@ -26,6 +26,7 @@ nav img{
 }
 
 /*  Hero Section*/
+
 .hero-title{
     font-size: 3rem;
     font-weight: 900;
@@ -77,27 +78,69 @@ form label{
     content:"\276f";
     margin-left: 5px;
 }
+
 /* Purple section*/
 
 .purple-setion{
  transform: translateY(-50%);
  width: 100%;
 }
-.purple-setion .container-md{
-    background: radial-gradient(51.39% 511.66% at 47.68% -217.91%,
-    #ff9900 0%,#e50914 17.27%,#0e1b4f 79.44%, #000413 100%);
-    box-shadow: 0px -8px 25px rgb(0,0,0,0.5);
+
+.purple-setion .container-md {
+    background: radial-gradient(51.39% 511.66% at 47.68% -217.91%, #ff9900 0%,#e50914 17.27%,#0e1b4f 79.44%, #000413 100%);
+    box-shadow: 0px -8px 25px rgba(0,0,0,0.5);
     border-radius: 4px;
-    margin: 074px;
+    margin: 0 74px;
     color: #fff;
     padding: 22px;
 }
+.purple-setion img{
+    width: 25%;
+    height: fit-content;
+}
 
+.purple-setion p:first-of-type {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0;
+}
+.purple-setion p:last-of-type {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
 
+.purple-setion-a{
+    color: #040d1a;
+    font-weight: 500;
+}
 
+.purple-setion-a::after{
+    content: "\276F";
+    margin-left: 10px;
+}
 
+/* enjoy section */
 
+.section-title{
+    font-size: 3rem;
+    font-weight: 900;
 
+}
+
+.section-paragraph{
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
+
+.watch-section,.download-section{
+  border-top:5px solid #232323;
+  border-bottom: 5px solid #232323;
+  
+}
 
 
 
